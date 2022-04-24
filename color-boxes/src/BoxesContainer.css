@@ -1,0 +1,22 @@
+.BoxesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.BoxesContainer-button {
+  margin-top: 45px;
+  color: #fff;
+  background-color: #000026;
+  border: #000026 1px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.BoxesContainer-button:hover {
+  background-color: #fff;
+  color: #000026;
+}
